@@ -5,6 +5,6 @@ if array.length == 1
   array.join('and')
 else 
   lastStr = array.pop
-  array.join(",") << ", and #{lastStr}"
+  array.join(", ") << ", and #{lastStr}"
   end
 end
